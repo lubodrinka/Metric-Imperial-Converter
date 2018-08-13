@@ -15,7 +15,7 @@
         ISQA_2 - Metric/Imp Converter
       </h1>
     </header>
-    <div id='userstories' style='margin-left: 5%; margin-top: 5%'>
+    <div id="userstories" style="margin-left: 5%; margin-top: 5%">
       <h3>User Stories</h3>
       <ol>
         <li>I will help prevent the client from trying to guess(sniff) the MIME type.</li>
@@ -28,7 +28,7 @@
         <li>If my unit of measurement is invalid, returned will be 'invalid unit'.</li>
         <li>If my number is invalid, returned with will 'invalid number'.</li>
         <li>If both are invalid, return will be 'invalid number and unit'.</li>
-        <li>I can use fractions, decimals or both in my parameter(ie. 5, 1/2, 2.5/6), but if nothing is provided it will default to 1.</li>
+        <li>I can use fractions, decimals or both in my parameter(ie. 5, 1/2, 2.5 / 6), but if nothing is provided it will default to 1.</li>
         <li>My return will consist of the initNum, initUnit, returnNum, returnUnit, and string spelling out units in format <code>{initNum} {initial_Units} converts to {returnNum} {return_Units}</code> with the result rounded to 5 decimals.</li>
         <li>All 16 unit tests are complete and passing.</li>
         <li>All 5 functional tests are complete and passing.</li>
@@ -41,17 +41,17 @@
       <h3>Example return:</h3>
       <code>{initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}</code>
     </div>
-    <hr style='margin: 50px'>
-    <div id='testui' style='margin-left: 5%'>
+    <hr style="margin: 50px">
+    <div id="testui" style="margin-left: 5%">
       <h2 style="text-align: left">Front-End:</h2>
       <form id="convertForm" class="border">
         <input type="text" id="convertField" name="input" placeholder="3.1mi" style="width: 200px">
-        <input id="convert" type="submit" value='Convert!'>
+        <input id="convert" type="submit" value="Convert!">
       </form>
-      <p id='result'></p>
-      <code id='jsonResult'></code>
+      <p id="result"></p>
+      <code id="jsonResult"></code>
     </div>
-    <hr style='margin: 50px; margin-top: 200px'>
+    <hr style="margin: 50px; margin-top: 200px">
     <!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
             integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
@@ -72,6 +72,6 @@
         });
       });
    </script>
-    
+    <a href="https://kaput-liquid.glitch.me"></a>
   </body>
 </html>
